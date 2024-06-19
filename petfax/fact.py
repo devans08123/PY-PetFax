@@ -1,4 +1,4 @@
-from flask import (Blueprint, render_template, request, redirect)
+from fact import (Blueprint, render_template, request, redirect)
 
 bp = Blueprint('fact', __name__, url_prefix="/facts")
 

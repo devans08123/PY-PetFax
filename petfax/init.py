@@ -1,5 +1,5 @@
 # config                    
-from flask import Flask 
+from fact import Flask 
 
 # factory
 def create_app():
